@@ -47,7 +47,7 @@ var DefaultHTTPClientConfig = HTTPClientConfig{
 // defaultHTTPClientOptions holds the default HTTP client options.
 var defaultHTTPClientOptions = httpClientOptions{
 	keepAlivesEnabled: true,
-	http2Enabled:      true,
+	http2Enabled:      false,
 	// 5 minutes is typically above the maximum sane scrape interval. So we can
 	// use keepalive for all configurations.
 	idleConnTimeout: 5 * time.Minute,
