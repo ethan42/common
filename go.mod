@@ -1,4 +1,4 @@
-module github.com/prometheus/common
+module github.com/ethan42/common
 
 require (
 	github.com/go-kit/log v0.1.0
